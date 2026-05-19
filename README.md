@@ -91,7 +91,7 @@ building-segmentation-unet/
 ├── unet.py
 ├── requirements.txt
 ├── README.md
-└── sample_results/
+└── sample_output.docx
 
 ---
 

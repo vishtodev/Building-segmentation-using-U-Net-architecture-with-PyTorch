@@ -94,3 +94,32 @@ building-segmentation-unet/
 └── sample_output.docx
 
 ---
+## Running the Project (Google Colab)
+
+This project is designed to run in **Google Colab with GPU acceleration**.
+
+### Steps
+
+1. Open Google Colab
+2. Upload `Building_segmentation_using_U-Net_architecture_with_PyTorch_on_Massachusetts_Buildings_Dataset.ipynb`
+3. Enable GPU:
+   Runtime → Change runtime type → GPU
+4. Install dependencies:
+```python
+!pip install albumentations opencv-python matplotlib tqdm
+```
+
+5. Configure Kaggle API credentials:
+```python
+!mkdir -p ~/.kaggle
+!echo '{"username":"YOUR_USERNAME","key":"YOUR_KAGGLE_KEY"}' > ~/.kaggle/kaggle.json
+!chmod 600 ~/.kaggle/kaggle.json
+```
+
+6. Download dataset:
+```python
+!kaggle datasets download -d balraj98/massachusetts-buildings-dataset
+!unzip massachusetts-buildings-dataset.zip
+```
+
+7. Run the training script.

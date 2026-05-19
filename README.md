@@ -94,12 +94,3 @@ building-segmentation-unet/
 └── sample_output.docx
 
 ---
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/vishtodev/Building-segmentation-using-U-Net-architecture-with-PyTorch-on-Massachusetts-Buildings-Dataset.git
-cd Building-segmentation-using-U-Net-architecture-with-PyTorch-on-Massachusetts-Buildings-Dataset
-```

@@ -86,14 +86,12 @@ Combined for better segmentation performance.
 
 ## Project Structure
 
-```bash
 building-segmentation-unet/
 │
 ├── unet.py
 ├── requirements.txt
 ├── README.md
 └── sample_results/
-```
 
 ---
 
@@ -102,71 +100,6 @@ building-segmentation-unet/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/building-segmentation-unet.git
-cd building-segmentation-unet
+git clone https://github.com/vishtodev/Building-segmentation-using-U-Net-architecture-with-PyTorch-on-Massachusetts-Buildings-Dataset.git
+cd Building-segmentation-using-U-Net-architecture-with-PyTorch-on-Massachusetts-Buildings-Dataset
 ```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Usage
-
-Update dataset paths in:
-
-```python
-BASE_PATH = "./dataset/png"
-```
-
-Then run:
-
-```bash
-python unet.py
-```
-
----
-
-## Results
-
-Evaluation metric used:
-**Intersection over Union (IoU)**
-
-Example outputs:
-
-(Add screenshots of predictions here)
-
----
-
-## Future Improvements
-
-- Use pretrained encoder (ResNet / EfficientNet)
-- Add Dice coefficient tracking
-- Improve hyperparameter tuning
-- Deploy as web demo
-- Experiment with Attention U-Net
-
----
-
-## Notes
-
-- Kaggle API credentials have been removed for security.
-- Parts of this implementation were developed with AI assistance and customized for this project.
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Author
-
-**Vishal R**
-
-Electronics and Communication Engineering Student  
-Interested in AI, Computer Vision, and Embedded Systems

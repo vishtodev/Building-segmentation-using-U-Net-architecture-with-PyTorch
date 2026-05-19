@@ -1,4 +1,4 @@
-# Building Segmentation using U-Net (PyTorch)
+# Building-segmentation-using-U-Net-architecture-with-PyTorch
 
 Deep learning project for binary image segmentation of buildings from aerial imagery using a custom U-Net architecture built with PyTorch.
 

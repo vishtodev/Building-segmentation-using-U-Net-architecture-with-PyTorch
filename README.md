@@ -84,16 +84,6 @@ Combined for better segmentation performance.
 
 ---
 
-## Project Structure
-
-building-segmentation-unet/
-│
-├── unet.py
-├── requirements.txt
-├── README.md
-└── sample_output.docx
-
----
 ## Running the Project (Google Colab)
 
 This project is designed to run in **Google Colab with GPU acceleration**.
